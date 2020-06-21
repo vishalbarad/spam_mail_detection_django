@@ -7,15 +7,13 @@
 ### Mail is not spam
 <p align="center">
 <img src="img1.png" width="800" height="500" style="border: 1px solid black" />
-<img src="img2.png" width="800" height="500" style="border: 1px solid black" />
+<img src="img2.png" width="400" height="500" style="border: 1px solid black" />
 </p>
 
 
 ***
-### Happy face
+### Mail is not spam
 <p align="center">
-<img src="Happyface.png" width="600" height="500" style="border: 1px solid black" />
+<img src="img3.png" width="800" height="500" style="border: 1px solid black" />
+<img src="img4.png" width="400" height="500" style="border: 1px solid black" />
 </p>
-
-### You can download the dataset from this link
-https://drive.google.com/drive/folders/1CYdHnuiDPMtgYfe18XSf5FJTNB5Ar_gt?usp=sharing
