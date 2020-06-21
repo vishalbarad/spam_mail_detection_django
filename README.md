@@ -7,7 +7,7 @@
 ### Mail is not spam
 <p align="center">
 <img src="img1.png" style="border: 1px solid black" />
-<img src="img2.png" style="border: 1px solid black" />
+<img src="img6.png" style="border: 1px solid black" />
 </p>
 
 
