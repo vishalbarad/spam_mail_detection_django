@@ -2,7 +2,7 @@
 
 <b>This Django project is made using machine learning classification model. This project detects whether mail is spam or not.</b>
 
-
+## Screenshoots of project
 ---
 ### Mail is not spam
 --------------------
