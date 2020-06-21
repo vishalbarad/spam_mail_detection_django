@@ -1,0 +1,46 @@
+body{
+  background-image: url("../images/zane-lee-aIkyfrlzt8c-unsplash.jpg");
+
+   height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container{
+  border:1px ridge;
+  border-radius:40px;
+  border-color:white;
+  width:1000px;
+  height:450px;
+  padding: 10px;
+  box-shadow: 10px 15px #CDCDCD;
+}
+h1{
+color:#CDCDCD;
+text-shadow: 2px 2px black;
+text-align : center;
+font-size: 48px;
+ }
+form{
+  text-align:center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 100px;
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  }

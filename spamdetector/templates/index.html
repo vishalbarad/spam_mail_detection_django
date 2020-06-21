@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spam Email detector</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="{%static "css/mycss.css"  %}">
+</head>
+<body>
+    {% if ans %}
+        <script>
+            alert("{{ans}}");
+        </script>
+    {% endif %}
+    <br>
+    <h1>WELCOME TO SPAM EMAIL DETECTOR PROTAL</h1><hr width="1120" style="height:2px;border-width:0;color:gray;background-color:white ">
+    <br>
+    <div class="container">
+        <form class="form-horizontal" action="spam" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email" style="color:#CDCDCD;text-shadow: 2px 2px black;">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email" required>
+                </div>
+            </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="msg" style="color:#CDCDCD;text-shadow: 2px 2px black;">Message:</label>
+            <div class="col-sm-10">
+                <textarea name="msg" rows="10" cols="10" class="form-control" id="msg" placeholder="Enter your Message" required></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10"  >
+                <input type="submit" class="btn btn-default" style="width:550px;">
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
