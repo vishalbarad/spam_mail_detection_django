@@ -1,11 +1,10 @@
 # spam_mail_detection
 
-# Smiley_face-detection-project
-<b>This project is made using deep learning CNN neural net and opencv. This project detects whether we are happy or neutral.</b>
+<b>This Django project is made using machine learning classification model. This project detects whether mail is spam or not.</b>
 
 
 ---
-### Neutral face
+### Mail is not spam
 <p align="center">
 <img src="Neutralface.png" width="600" height="500" style="border: 1px solid black" />
 </p>
