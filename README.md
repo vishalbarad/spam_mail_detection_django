@@ -1,6 +1,6 @@
 # spam_mail_detection
 
-<b>This Django project is made using machine learning classification model. This project detects whether mail is spam or not.</b>
+<b>This project is made using Django framework and machine learning classification algorithm (Naive bayes algo). This project detects whether mail is spam or not.</b>
 
 ## Screenshoots of project
 ---
