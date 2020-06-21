@@ -5,6 +5,7 @@
 
 ---
 ### Mail is not spam
+--------------------
 <p align="center">
 <img src="img7.png" style="border: 1px solid black" />
 <img src="img6.png" style="border: 1px solid black" />
@@ -13,6 +14,7 @@
 
 ***
 ### Mail is not spam
+--------------------
 <p align="center">
 <img src="img8.png" style="border: 1px solid black" />
 <img src="img5.png" style="border: 1px solid black" />
